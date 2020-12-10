@@ -1,0 +1,52 @@
+@import '../../variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.InfoContainer {
+    text-align: left;
+    margin: 2rem auto;
+    color: $brown-2;
+    
+    img {
+        max-height: 500px;
+        display: block;
+        margin: auto;
+    }
+    
+    .main-info {
+        background-color: $brown-5;
+        color: $brown-2;
+    }
+
+    ul {
+        max-width: 650px;
+        margin: auto;
+        font-size: 1.25em;
+        font-family: 'Open Sans', Helvetica,Arial,sans-serif;
+
+        li {
+            margin: 2rem 0;
+        }
+    }
+
+    .competition-info {
+        max-height: 350px;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .InfoContainer {
+        .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        
+        img {
+            vertical-align: middle;
+            max-height: 500px;
+            display: inline-block;
+            margin: auto;
+        }
+    }    
+}

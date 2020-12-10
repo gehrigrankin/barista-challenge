@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.RegisterForm {
+    color: $brown-3;
+    padding: 1rem 0;
+
+    &.container {
+        max-width: 750px;
+    }
+
+    h1 {
+        color: $brown-2;
+        font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    }
+
+    form {
+        text-align: left;
+
+        input {
+            border-radius: 3px;
+        }
+    }
+
+    .btn {
+        background: $brown-2;
+        color: $brown-5;
+        outline: none !important;
+        border: none !important;
+        margin: 1.5rem 0;
+
+        &:hover {
+            background: $brown-3;
+            color: $brown-5;
+        }
+    }
+    .btn:focus, .btn:active {
+        background: $brown-4 !important;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+}

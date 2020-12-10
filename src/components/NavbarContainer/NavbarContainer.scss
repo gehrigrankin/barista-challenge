@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.Navbar {
+    background: $brown-3;
+    text-align: left;
+
+    .navbar-brand, .nav-link {
+        color: $brown-5 !important;
+    }
+
+    .nav-link:hover {
+        color: $brown-2 !important;
+    }
+
+    .navbar-brand {
+        font-family: $pacifico, cursive;
+        font-size: 1.75em;
+    }
+}

@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+.App {
+    text-align: center;
+    background: $brown-5;
+    min-height: 100vh;
+    height: 100%;
+
+    .body {
+        height: 100%;
+    }
+}
