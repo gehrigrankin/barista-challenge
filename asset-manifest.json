@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/barista-challenge/static/css/main.1c9e4fc6.chunk.css",
-    "main.js": "/barista-challenge/static/js/main.605d76b5.chunk.js",
-    "main.js.map": "/barista-challenge/static/js/main.605d76b5.chunk.js.map",
+    "main.js": "/barista-challenge/static/js/main.fd354043.chunk.js",
+    "main.js.map": "/barista-challenge/static/js/main.fd354043.chunk.js.map",
     "runtime-main.js": "/barista-challenge/static/js/runtime-main.5e4d7698.js",
     "runtime-main.js.map": "/barista-challenge/static/js/runtime-main.5e4d7698.js.map",
     "static/css/2.1a02f21c.chunk.css": "/barista-challenge/static/css/2.1a02f21c.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.a58444ed.chunk.js",
     "static/css/main.1c9e4fc6.chunk.css",
-    "static/js/main.605d76b5.chunk.js"
+    "static/js/main.fd354043.chunk.js"
   ]
 }
